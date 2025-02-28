@@ -1,7 +1,7 @@
-;Task1.1 problem
+;Task1.2 problem (nothing changed compared to task1.1)
 
-(define (problem task1_1-problem)
-  (:domain task1_1)
+(define (problem task1_2-problem)
+  (:domain task1_2)
   
   (:objects
     inhabitant1 inhabitant2 inhabitant3 - inhabitant
