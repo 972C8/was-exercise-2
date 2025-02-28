@@ -56,9 +56,8 @@ Or to run the planner with the A* algorithm that you implemented in Task 2:
 python3 plan.py -s astar t1-your-domain.pddl t1-your-problem.pddl
 
 python3 plan.py -s astar benchmarks/blocks/domain.pddl benchmarks/blocks/task01.pddl
+python3 plan.py -s astar benchmarks/openstacks/domain01.pddl benchmarks/openstacks/task01.pddl
 
-python3 plan.py -s astar task-1_SOLUTION/task1_1-domain.pddl task-1_SOLUTION/task1_1-problem.pddl
-python3 plan.py -s astar task-1_SOLUTION/task1_2-domain.pddl task1_2-problem.pddl
 ```
 
 ## Task 2
