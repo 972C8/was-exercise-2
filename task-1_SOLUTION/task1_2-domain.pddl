@@ -6,8 +6,8 @@
 
  (:types
   inhabitant room time
-  worker - object
  )
+ 
  (:predicates
   (assigned ?i - inhabitant ?r - room) ;inhabitant i is assigned to room r
   (can-arrive-at ?i - inhabitant ?t - time) ;inhabitant i can-arrive-at at time t
