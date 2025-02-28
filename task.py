@@ -132,7 +132,7 @@ class Task:
         @param state A state
         @return True if all the goals are reached, False otherwise
         """
-        return self.goal.issubset(state) # Check whether goal is a subset of the state
+        return self.goals.issubset(state) # Check whether goal is a subset of the state
 
     # ---- Step 4 ----
     # Implement the method
